@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+
+    background: rgb(230,232,244);
+    background: radial-gradient(circle, rgba(230,232,244,1) 0%, rgba(16,157,255,1) 100%);
+}
+.ellipse{
+    position: absolute;
+    width: 218px;
+    height: 218px;
+    right: 320px;
+    top: -100px;
+
+    background: #24A5FF;
+    filter: blur(50.5px);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Align keypad and display to the right */
+    gap: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(191.34deg, #17181A -4.95%, #17181A 103.74%);
+    
+
+}
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 95%;
+    height: 100px;
+    background: linear-gradient(191.34deg, #17181A -4.95%, #17181A 103.74%);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 3rem;
+    color: #818181;
+}
+#result{
+    font-size: 3.5rem;
+}
+.keypad{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+button{
+    background-color: #191b1c;
+    border: none;
+    border-radius: 10px;
+    background: rgba(48, 49, 54, 1);
+    color: #29A8FF;
+}
+button:hover{
+    background-color: #7f8585d8;
+}
+.key{
+    width: 100px;
+    height: 100px;
+    font-size: 3rem;
+}
+.ac,.ce{
+    background: rgba(97, 97, 97, 1);
+}
+.modulo,.divide,.minus,.plus,.multiply{
+    background: rgba(0, 93, 178, 1);
+
+}
+.equals{
+    background: rgba(25, 145, 255, 1);
+    color:rgba(178, 218, 255, 1);
+    box-shadow: -9px 13px 23px 0px rgba(0, 163, 255, 0.65);
+    box-shadow: -3px 4px 11px 0px rgba(176, 223, 255, 1) inset;
+
+}
+.zero{
+    width: 204px;
+    background: rgba(54, 59, 79, 0.895);
+    color: #fff;
+
+}

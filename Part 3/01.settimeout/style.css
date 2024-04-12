@@ -1,0 +1,15 @@
+.container{
+    background-color: blue;
+    height: 250px;
+    width: 250px;
+}
+
+.black{
+    background-color: black;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    margin-left: 75px;
+}

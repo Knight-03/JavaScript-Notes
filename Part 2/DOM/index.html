@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./style.css">
+
+
+    <!-- <script src="./102(how to link js).js"></script>
+    * ana thi link thay pn browser 9th line pr aai ne stop thai jashe (parse karva nu stop kari dese) and 
+    * js file ne execute karshe 
+    * ema je html na element use karya ta div nav..etc aa badha to load thaya j nathi 
+    * kem ke html file to 9th line pr stop thai gai ti 
+    * mate aa reet sachi nathi 
+    -->
+
+    <!-- <script src="./102(how to link js).js" async></script>
+        * broser html parse karshe 
+        pachi 16th line pr pochse async che 
+        to matlab mare parshing stop nathi karva ni 
+        * to 2 kaam sath chalse parshing plush js load pn thashe
+        * banne kaam sath chale che pn js load thai gai 
+        * to parshing stop thai gyu 
+        * and exection start thai gyu 
+        ama pn error ava na chance vadhar che cuz half file j parse thai che 
+    -->
+
+
+    <!-- <script src="./1 DOM.js" defer></script> -->
+    <!-- <script src="./2 sel ele by id.js" defer></script> -->
+    <!-- <script src="./3 query selector.js" defer></script> -->
+    <!-- <script src="./4 change text.js" defer></script> -->
+    <!-- <script src="./5 change the syles of ele.js" defer></script> -->
+    <!-- <script src="./6 get and set.js" defer></script> -->
+    <!-- <script src="./7 get multiple ele.js" defer></script> -->
+    <!-- <script src="./8 loop.js" defer></script> -->
+    <!-- <script src="./9 innerHTML.js" defer></script> -->
+    <!-- <script src="./11 add class usig js.js" defer></script> -->
+    <!-- <script src="./12 add HTML.js" defer></script> -->
+    <!-- <script src="./13 proper way to add html.js" defer></script> -->
+    <!-- <script src="./14 add html new way.js" defer></script> -->
+    <!-- <script src="./15 clone nodes.js" defer></script> -->
+    <!-- <script src="./16 old methods to add html.js" defer></script> -->
+    <!-- <script src="./17 static vs live list.js" defer></script> -->
+    <!-- <script src="./18 get dimension.js" defer></script> -->
+    <!-- <script src="./19 events.js" defer></script> -->
+    <!-- <script src="./20 this.js" defer></script>  -->
+    <!-- <script src="./26 keypress mouseover.js" defer></script> -->
+    <script src="./28 todo list compele.js" defer></script>
+    
+    <!--
+        ama pan loading and parseing jode chalse 
+        load thai gya pachi parseing stop nai thay 
+        pehla akhi file parse thai jashe 
+        pachi js file execute thashe 
+        * so that this is the best way to link the js file 
+      -->
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <h1 class="logo">Website</h1>
+            <ul class="nav-items">
+                <li class="nav-items"><a href="#Home">Home</a></li>
+                <li class="nav-items"><a href="#Todo">Todo</a></li>
+                <li class="nav-items"><a href="#Sign Up">Sign up</a></li>
+            </ul>
+        </nav>
+        <div class="headline">
+            <h2 id="main-heading">
+                Manage your tasks <span style="display: none">Hello</span>
+            </h2>
+            <button class="btn btn-headline">Learn More</button>
+        </div>
+    </header>
+    <section class="section-todo container">
+        <h2>Your plan for today ?</h2>
+        <!-- todo form  -->
+
+        <form class="form-todo">
+          <input type="text" name="" id="" placeholder="Add Todo" />
+          <input type="submit" value="Add Todo" class="btn"/>
+        </form>
+
+        <ul class="todo-list">
+            <li>
+                <span class="text">Do this Do that</span>
+                <div class="todo-buttons">
+                    <button class="todo-btn done">Done</button>
+                    <button class="todo-btn remove">Remove</button>
+                </div>
+            </li>
+        </ul>
+      </section>
+
+      <section class="section-signup container">
+        <h2>Sign Up</h2>
+        <form class="sign-up-form">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" />
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password"  />
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" name="confirmPassword" id="confirmPassword" />
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="text" name="phone" id="phone" />
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" />
+            </div>
+            <div class="form-group">
+                <label for="about">About Yourself</label>
+                <textarea name="about" id="about" cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit" class="btn signup-btn">Submit</button>
+
+        </form>
+      </section>
+      <!-- <script src="./102(how to link js).js"></script>
+        * Load pn thai jashe 
+        * exectue pn thai jashe 
+
+
+        * pehla browser su karseh html parse karse 
+        * js ne load karshe pachi
+        * pachi js ne exectue karshe 
+        to aa badha ma time lage to apde banne kaam eke hare kari ne time reduce kari shakiye 
+    -->
+</body>
+</html>

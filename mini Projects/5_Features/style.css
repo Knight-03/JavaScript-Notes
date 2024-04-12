@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+.elem {
+    height: 100px;
+    width: 100%;
+    border-bottom: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.elem h1 {
+    font-size: 3vw;
+}
+.elem img {
+    height: 90px;
+    width: 90px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0;
+
+}
+/* .cursor {
+    height: 20px;
+    width: 20px;
+    background-color: blueviolet;
+    mix-blend-mode: difference;
+    border-radius: 50%;
+    position: absolute;
+    transition: all linear 0.2s;
+
+} */

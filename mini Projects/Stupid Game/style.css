@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.btn{
+    background-color:#02BF91;
+    color: #fff;
+    font-size: 3rem;
+    padding: .5rem 2rem;
+    border-radius: .5rem;
+    border: none;
+    font-family: 'Euphoria Script', cursive;
+    cursor: pointer;
+}
+
+@keyframes moveRight {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(80vw);
+    }
+    50% {
+        transform: translate(calc(100vw - 100%), calc(100vh - 100%));
+    }
+    75% {
+        transform: translateY(88vh);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.move{
+    background-color: #f27c7c;
+    color: #fff;
+    font-size: 3rem;
+    padding: .5rem 2rem;
+    border-radius: .5rem;
+    border: none;
+    font-family: 'Euphoria Script', cursive;
+    pointer-events: none;
+}
+.moveRight{
+    animation: moveRight 10s infinite;
+}

@@ -1,0 +1,27 @@
+.container{
+    background-color: blue;
+    height: 250px;
+    width: 250px;
+}
+
+.black{
+    background-color: black;
+    margin-left: 500px;
+}
+
+button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 1rem 1.5rem;
+    font-size: 3rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #0000009e;
+    transition: all 0.4s;
+}
+button:hover{
+    box-shadow: 0px 0px 15px #000000de;
+}
